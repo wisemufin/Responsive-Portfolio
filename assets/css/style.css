@@ -4,6 +4,7 @@ body {
   line-height: 34px;
   color: #777777;
   background: url("../images/concrete_seamless.png");
+  margin: 0;
 }
 
 * {
@@ -107,7 +108,7 @@ footer {
   text-align: center;
   background: #666666;
   border-top: 8px solid #4aaaa5;
-  height: 50px;
+  height: 80px;
 }
 
 h3, h2 {
@@ -214,4 +215,48 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+
+@media screen and (max-width:980px) {
+ .main-section {
+   width: 75%;
+   margin-left: 12%;
+ }
+
+ #logo {
+   margin-left: 5%;
+ }
+
+ nav {
+   margin-right: 8%;
+ }
+}
+
+@media screen and (max-width:768px) {
+ .main-section {
+   width: 100%;
+   margin: 0 auto;
+   margin-bottom: 30px;
+ }
+}
+
+@media screen and (max-width:640px) {
+ #logo, nav, #about-me-picture, .work {
+   width: 100%;
+ }
+
+ nav {
+   text-align: center;
+   padding-bottom: 3%;
+ }
+
+ .main-section {
+   margin-top: 50px;
+ }
+
+ #logo {
+   margin-left: 0;
+ }
+
 }
